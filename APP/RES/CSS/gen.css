@@ -1,0 +1,74 @@
+body {
+    background: #FFF;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    color: rgb(160, 28, 67);
+}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    z-index: 2;
+    color: white;
+    background-color: #E94B3B;
+    border-color: #E63624;
+}
+.list-group.badged-left .badge {
+    float: left;
+}
+.modal.bootbox {
+    z-index: 2000;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track:vertical {
+    background: #ddd;
+}
+::-webkit-scrollbar-track:horizontal {
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #A01C43;
+}
+::-webkit-scrollbar-corner {
+    background: #ddd;
+}
+::-webkit-scrollbar-button:decrement {
+    background: #333;
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-button:increment {
+    background: #333;
+    width: 10px;
+    height: 10px;
+}
+@-moz-document url-prefix(http://), url-prefix(https://) {
+    scrollbar {
+        -moz-appearance: none !important;
+        background: #ddd !important;
+    }
+    thumb, scrollbarbutton {
+        -moz-appearance: none !important;
+        background-color: #888 !important;
+    }
+    thumb:hover, scrollbarbutton:hover {
+        -moz-appearance: none !important;
+        background-color: #A01C43 !important;
+    }
+    scrollbarbutton {
+        display: none !important;
+    }
+    scrollbar[orient="vertical"] {
+        min-width: 15px !important;
+    }
+}
+.ui-autocomplete.ui-menu {
+    z-index: 3000;
+}
+.modal-xl {
+    width: 95%;
+}

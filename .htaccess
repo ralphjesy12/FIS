@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /([^/]+/)*index\.php[?]? [NC]
+RewriteRule ^(([^/]+/)*)index\.php$ /%1 [NC,R=301,L]
+RewriteRule ^([a-zA-Z0-9-_]+)?$ index.php?$1 [NC,L]
+
+
+ErrorDocument 404 http://localhost/FIS/404
+ErrorDocument 403 http://localhost/FIS/404

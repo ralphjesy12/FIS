@@ -1,0 +1,83 @@
+2014-09-07 11:12:01 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-09-07 11:12:40 : [admin] PROJECT = Add Entry 
+2014-09-07 11:13:04 : [admin] ITEM = Add Entry 502-1003
+2014-09-07 11:23:16 : [admin] ITEM = Add Entry 502-3123
+2014-09-07 11:24:19 : [admin] RECORD = Add Entry 
+2014-09-07 11:26:01 : [admin] RECORD = Add Entry 
+2014-09-07 11:29:04 : [admin] RECORD = Add Entry 
+2014-09-07 11:37:28 : [admin] PROJECT = Add Entry 
+2014-09-07 11:38:01 : [admin] ITEM = Add Entry 4012-33
+2014-09-07 11:38:51 : [admin] RECORD = Add Entry 
+2014-09-07 11:40:18 : [admin] RECORD = Add Entry 
+2014-09-07 11:40:39 : [admin] RECORD = Add Entry 
+2014-09-21 05:58:10 : [GUEST] LOGIN = Tried to login as admin,admin|FAILED
+2014-09-21 05:58:15 : [GUEST] LOGIN = Tried to login as admin,1234|FAILED
+2014-09-21 05:58:21 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-09-21 06:19:18 : [admin] ITEM = Add Entry 123-1234
+2014-09-21 06:20:38 : [admin] RECORD = Add Entry 
+2014-09-21 06:21:22 : [admin] RECORD = Add Entry 
+2014-09-21 06:53:20 : [admin] ADD CLERK = ralph,12345
+2014-09-21 06:53:30 : [admin] LOGOUT
+2014-09-21 06:53:34 : [GUEST] LOGIN = Tried to login as ralph,12345|OK
+2014-09-21 06:54:01 : [ralph] UPDATE = Tried to update account with ralph,1234|OK
+2014-09-21 06:54:03 : [ralph] LOGOUT
+2014-09-21 06:54:08 : [GUEST] LOGIN = Tried to login as ralph,1234|OK
+2014-09-21 06:54:11 : [ralph] LOGOUT
+2014-09-21 06:54:17 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-09-21 07:23:33 : [admin] LOGOUT
+2014-09-21 07:23:37 : [GUEST] LOGIN = Tried to login as ralph,1234|OK
+2014-09-21 07:36:28 : [ralph] LOGOUT
+2014-09-21 07:36:32 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-09-21 07:38:41 : [admin] LOGOUT
+2014-09-25 08:01:16 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-11-09 03:08:06 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-11-09 13:02:22 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-11-09 13:02:34 : [admin] LOGOUT
+2014-11-09 13:11:58 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-11-09 13:14:30 : [admin] LOGOUT
+2014-11-09 13:20:55 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2014-11-09 13:21:38 : [admin] PROJECT = Add Entry 
+2014-11-09 13:23:04 : [admin] RECORD = Add Entry 
+2014-11-09 13:24:20 : [admin] RECORD = Add Entry 
+2014-11-09 13:28:44 : [admin] LOGOUT
+2014-11-10 06:55:45 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-01 18:38:12 : [GUEST] LOGIN = Tried to login as ,|FAILED
+2017-01-02 10:24:40 : [GUEST] LOGIN = Tried to login as ,|FAILED
+2017-01-02 10:32:11 : [GUEST] LOGIN = Tried to login as admin,admin|FAILED
+2017-01-02 10:32:18 : [GUEST] LOGIN = Tried to login as admin,1234|FAILED
+2017-01-02 10:32:26 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-02 10:39:36 : [admin] LOGOUT
+2017-01-02 10:41:41 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-02 14:57:01 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-03 07:10:47 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-03 07:13:15 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 00:34:54 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 00:39:08 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 00:47:40 : [admin] PROJECT = Edit Entry 557
+2017-01-04 00:48:29 : [admin] PROJECT = Edit Entry 601
+2017-01-04 00:49:28 : [admin] PROJECT = Edit Entry 601
+2017-01-04 00:50:11 : [admin] PROJECT = Edit Entry 601
+2017-01-04 00:54:48 : [admin] ITEM = Edit Entry 601-902a1
+2017-01-04 00:56:03 : [admin] ITEM = Add Entry 601-902a1
+2017-01-04 00:56:34 : [admin] ITEM = Edit Entry 601-902a1
+2017-01-04 00:56:42 : [admin] ITEM = Edit Entry 601-902a1
+2017-01-04 01:10:15 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 01:13:34 : [admin] RECORD = Add Entry 
+2017-01-04 01:17:14 : [admin] PROJECT = Remove Entry 558
+2017-01-04 01:17:40 : [admin] PROJECT = Remove Entry 601
+2017-01-04 01:18:40 : [admin] PROJECT = Add Entry 
+2017-01-04 02:55:45 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 02:57:24 : [admin] PROJECT = Add Entry 
+2017-01-04 03:03:55 : [admin] ITEM = Add Entry 602-roofing
+2017-01-04 03:05:27 : [admin] RECORD = Add Entry 
+2017-01-04 03:07:37 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 03:09:09 : [admin] ITEM = Add Entry 602-nails
+2017-01-04 03:10:46 : [admin] RECORD = Add Entry 
+2017-01-04 03:11:51 : [admin] ITEM = Add Entry 602-nails
+2017-01-04 03:13:05 : [admin] RECORD = Add Entry 
+2017-01-04 05:10:18 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 05:13:31 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-04 14:49:10 : [GUEST] LOGIN = Tried to login as admin,pass|OK
+2017-01-08 04:11:22 : [GUEST] LOGIN = Tried to login as admin,admin|FAILED
+2017-01-08 04:11:26 : [GUEST] LOGIN = Tried to login as admin,1234|FAILED
+2017-01-08 04:11:29 : [GUEST] LOGIN = Tried to login as admin,pass|OK
