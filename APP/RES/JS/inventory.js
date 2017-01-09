@@ -935,6 +935,22 @@ $(document).ready(function() {
         $('#modal-stock-entry').modal('show');
     });
 
+
+    $('#table-stock-info').delegate('.btn-record-delete','click',function(){
+        var record_id = $(this).closest('tr').data('id');
+        var record_obj = $(this).closest('tr').data('object');
+        bootbox.confirm("Are you sure you want to delete this record?", function(ans) {
+            if (ans) {
+                $.post("APP/SYS/CNT/record.php?a=delete", {
+                    i: record_id,
+                    r: record_obj,
+                }, function(data) {
+                    list_stock_refresh($("#select-project-2").val());
+                });
+            }
+        });
+    });
+
     $('#btn-stock-update').click(function(){
         var rec_id = $(this).data('id');
         var record = [];
@@ -948,7 +964,6 @@ $(document).ready(function() {
             $(this).data('date'),
             $(this).data('type'),
         ];
-        console.log(record);
         if(rec_id!==''){
             $("#btn-stock-update").button('loading');
             $.post("APP/SYS/CNT/record.php?a=update", {

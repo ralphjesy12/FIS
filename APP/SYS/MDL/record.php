@@ -22,6 +22,11 @@ class Record{
 		return connect($sql)->fetch();
 	}
 
+	function delete($id){
+		$sql = 'DELETE FROM `firedepot`.`records` WHERE `rec_id` = "'.$id.'" LIMIT 1';
+		return connect($sql);
+	}
+
 	function update($i,$entry){
 		$sql = 'UPDATE `firedepot`.`records` SET
 		`itm_qty` = "'.$entry[1].'",

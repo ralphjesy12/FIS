@@ -60,6 +60,20 @@ if(isset($_GET["a"])){
 
 
 		break;
+		case 'delete':
+		require_once '../MDL/stock.php';
+		$s = new Stock();
+		$i = $_POST["i"];
+		$entry = $r->get($i);
+		$r->delete($i);
+		if($entry[7]=="RECEIVE"){
+			$s->issue($entry[2],$entry['itm_qty'],$entry['prj_code']);
+		}
+		else{
+			$s->receive($entry[2],$entry['itm_qty'],$entry['prj_code']);
+		}
+
+		break;
 		default:
 		# code...
 		break;

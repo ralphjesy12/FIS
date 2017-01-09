@@ -44,9 +44,9 @@ if(isset($_GET["a"])){
 							<tr class="'.$class.'" data-id="'.$s['rec_id'].'" data-object='."'".json_encode($s)."'".'>
 							<td>'.$s["rec_date"].'</td>';
 							if($s["rec_type"]=="RECEIVE")
-								echo '<td>'.$s["itm_sup"].'</td><td>'.$s["rec_rnum"].'</td><td>'.$s["itm_qty"].'</td><td>'.$s["itm_price"].'</td><td>'.($s["itm_price"]*$s["itm_qty"]).'</td><td></td><td></td><td></td><td></td><td></td><td><button class="btn-record-edit btn btn-xs btn-info"><i class="fa fa-pencil"></i></button></td>';
+								echo '<td>'.$s["itm_sup"].'</td><td>'.$s["rec_rnum"].'</td><td>'.$s["itm_qty"].'</td><td>'.$s["itm_price"].'</td><td>'.($s["itm_price"]*$s["itm_qty"]).'</td><td></td><td></td><td></td><td></td><td></td><td><button class="btn-record-edit btn btn-xs btn-info"><i class="fa fa-pencil"></i></button><button class="btn-record-delete btn btn-xs btn-danger" style="margin-left:3px;"><i class="fa fa-trash-o"></i></button></td>';
 							else
-								echo '<td></td><td></td><td></td><td></td><td></td><td>'.$s["itm_sup"].'</td><td>'.$s["rec_rnum"].'</td><td>'.$s["itm_qty"].'</td><td>'.$s["itm_price"].'</td><td>'.($s["itm_price"]*$s["itm_qty"]).'</td><td><button class="btn-record-edit btn btn-xs btn-info"><i class="fa fa-pencil"></i></button></td>';
+								echo '<td></td><td></td><td></td><td></td><td></td><td>'.$s["itm_sup"].'</td><td>'.$s["rec_rnum"].'</td><td>'.$s["itm_qty"].'</td><td>'.$s["itm_price"].'</td><td>'.($s["itm_price"]*$s["itm_qty"]).'</td><td><button class="btn-record-edit btn btn-xs btn-info"><i class="fa fa-pencil"></i></button><button class="btn-record-delete btn btn-xs btn-danger" style="margin-left:3px;"><i class="fa fa-trash-o"></i></button></td>';
 							echo '
 							</tr>
 
